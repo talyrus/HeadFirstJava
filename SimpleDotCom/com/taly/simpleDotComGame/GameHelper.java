@@ -4,9 +4,9 @@ import java.io.*;
  * Created by Taly on 25.02.2017.
  */
 public class GameHelper {
-    public String getUserInput(String promt) {
+    public String getUserInput(String prompt) {
         String inputLine = null;
-        System.out.print(promt + " ");
+        System.out.print(prompt + " ");
         try {
             BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
             inputLine = is.readLine();
