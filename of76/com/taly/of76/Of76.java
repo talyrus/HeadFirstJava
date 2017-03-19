@@ -6,6 +6,7 @@ package com.taly.of76;
 interface Nose {
     public int iMethod();
 }
+
 abstract class Picasso implements Nose {
     @Override
     public int iMethod() {
@@ -13,7 +14,8 @@ abstract class Picasso implements Nose {
     }
 }
 
-class Clowns extends Picasso { }
+class Clowns extends Picasso {
+}
 
 class Acts extends Picasso {
     @Override
